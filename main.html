@@ -1,16 +1,130 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
+	<title>HTML Assignment 3</title>
 	<link rel="stylesheet" href="styles.css">
+<style>
+	h1{
+		text-align: center;
+	}
+	.center{
+		text-align: center;
+	}
+	.right{
+		text-align: right;
+	}
+	#t11{
+		border: 1px solid black;
+	}
+	#t12{
+		border: 1px solid black;
+	}
+	#t13{
+		border: 1px solid black;
+	}
+	#t21{
+	}
+	#table-1{
+		border: 1px solid black;
+		spacing:1px;
+		cell-padding: 1px;
+		width: 100%;
+	}
+	#table-2{
+		border:1px solid black;
+		spacing:1px;
+		cell-padding: 1px;
+		width: 100%;
+		
+	}
+	#table-3{
+		border:1px solid black;
+		spacing:1px;
+		cell-padding: 1px;
+		width: 100%;
+	}
+	#t-image{
+		text-align: center;
+	}
+	#bg1{
+		background-color: green;
+	}
+	#bg2{
+		background-color: blue;
+	}
+</style>
 </head>
-
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
+		
 </script>
-
 </body>
+<h1>HTML Assignment 3</h1>
+	<table  id="table-1">
+		<tr>
+			<td id="t11">left</td>
+			<td id="t12"class="center">center</td>
+			<td id="t13"class="right">right</td>
+		</tr>
+		<tr>
+			<td id="t11">left</td>
+			<td id="t12" class="center">center</td>
+			<td id="t13" class="right">right</td>
+		</tr>
+		<tr>
+			<td id="t11">left</td>
+			<td id="t12" class="center">center</td>
+			<td id="t13"class="right">right</td>
+		</tr>
+	</table><br>
+	<table border="1" id="table-2">
+		<tr id="t21" height=20>
+			<td  colspan="6"></td>
+		</tr>
+		<tr height="20">
+			<td rowspan="4"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr >
+		<tr height="20">
+			<td></td>
+			<td colspan="3" rowspan="2"></td>
+			<td></td>
+		</tr>
+		<tr height="20">
+			<td></td>
+			<td></td>
+		</tr>
+		<tr height="20">
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr height="20">
+			<td colspan="6"></td>
+		</tr>
+	</table><br>
+	<table border="1"id="table-3">
+		<tr height="20">
+		<td id="bg1"colspan="3"></td>	
+		</tr>
+		<tr>
+			<td width="50"></td>
+			<td id="t-image"><img src=https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg width="50%"></td>
+			<td></td>
+		</tr>
+		<tr height="20">
+			<td colspan="3" id="bg2"></td>
+		</tr>
+	</table>
 
+
+
+	
 </html>
